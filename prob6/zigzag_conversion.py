@@ -12,7 +12,7 @@ class Solution(object):
         final_string = ""
         while i< numRows:
             j = 0
-            while j +i < len(s):
+            while j+i < len(s):
                 final_string += s[j+i]
                 if (i != 0 and i != numRows - 1 and j + cycle_len - i < len(s)):
                     final_string += s[j + cycle_len - i]
